@@ -22,7 +22,7 @@ const researchAreas = [
 const researchAreaList = document.querySelector('#research-area-list');
 if (researchAreaList) {
   researchAreaList.innerHTML = researchAreas
-    .map((area, index) => `<span><b>${String(index + 1).padStart(2, '0')}</b>${area}</span>`)
+    .map((area) => `<span>${area}</span>`)
     .join('');
 }
 
