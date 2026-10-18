@@ -39,3 +39,18 @@ if (menuButton && nav) {
     });
   });
 }
+
+const timelineItems = document.querySelectorAll('.timeline-item');
+if ('IntersectionObserver' in window) {
+  const timelineObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.18 });
+  timelineItems.forEach((item) => timelineObserver.observe(item));
+} else {
+  timelineItems.forEach((item) => item.classList.add('in-view'));
+}
