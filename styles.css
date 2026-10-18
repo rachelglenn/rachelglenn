@@ -22,6 +22,8 @@
 .profile-research{padding:20px 0 110px}.profile-research>.intro{padding:0}.profile-research>.intro-grid{padding:58px 0 56px}.profile-research>.research{padding:0}.profile-research>.research>.section-heading{padding:20px 0 36px;align-items:start}.profile-research>.research>.section-heading p{width:min(700px,100%);margin:0;padding-top:6px;font-size:16px}
 @media(max-width:850px){.research-grid{grid-template-columns:1fr}}
 :root{--mono:var(--sans);--serif:var(--sans)}
+.hero-specialties{white-space:nowrap}
+@media(max-width:850px){.hero-specialties{white-space:normal}}
 .closing{gap:96px}.closing>div:nth-child(2){flex:1}.closing h2{white-space:nowrap}
 .closing>div:nth-child(2){text-align:center}.closing .eyebrow{text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
 .closing-prompt span{display:block}.closing-prompt span+span{margin-top:10px;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit}
