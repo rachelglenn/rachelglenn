@@ -24,7 +24,7 @@
 :root{--mono:var(--sans);--serif:var(--sans)}
 .site-nav a:hover,.text-link:hover,.arrow-link:hover{color:var(--blue-deep)}.button-primary:hover{background:var(--blue-deep)}.section-label span:first-child,.array-head span:first-child{color:var(--blue-deep)}.hero h1 i,.intro h2 em,.section-heading h2 em,.trajectory-head h2 em,.closing h2 em{color:var(--blue-deep)}
  :root{--orange:#b75a3a}
-.closing-mark span{color:var(--blue-deep)}.timeline-item.current .timeline-dot{background:var(--blue-deep);box-shadow:0 0 0 5px #2c647028}
+.closing-mark span{color:var(--blue-deep)}.timeline-item.current .timeline-dot{border-color:var(--blue-deep);background:var(--blue-deep);box-shadow:0 0 0 5px #2c647028}
 .hero-specialties{white-space:nowrap}
 @media(max-width:850px){.hero-specialties{white-space:normal}}
 .closing{gap:96px}.closing>div:nth-child(2){flex:1}.closing h2{white-space:nowrap}
