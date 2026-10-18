@@ -26,5 +26,6 @@
 @media(max-width:850px){.hero-specialties{white-space:normal}}
 .closing{gap:96px}.closing>div:nth-child(2){flex:1}.closing h2{white-space:nowrap}
 .closing>div:nth-child(2){text-align:center}.closing .eyebrow{text-align:center;max-width:760px;margin-left:auto;margin-right:auto;text-transform:none;letter-spacing:0}
+.closing-links{display:flex;flex-direction:column;gap:12px;min-width:142px}.closing-links .button{justify-content:space-between}
 .closing-prompt span{display:block}.closing-prompt span+span{margin-top:10px;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit}
-@media(max-width:850px){.closing{gap:0}.closing h2{white-space:normal}}
+@media(max-width:850px){.closing{gap:0}.closing h2{white-space:normal}.closing-links{align-items:stretch;margin-top:38px}}
