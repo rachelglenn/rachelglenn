@@ -53,3 +53,4 @@
 .card-featured .research-image{object-position:center}.card-featured h3,.card-featured p,.card-featured .tag-row{width:100%;text-align:center}.card-featured p{margin-left:auto;margin-right:auto}.card-featured .tag-row{justify-content:center}
 .research-card h3,.research-card p,.research-card .tag-row{width:100%;text-align:center}.research-card p{margin-left:auto;margin-right:auto}.research-card .tag-row{justify-content:center}
 @media(min-width:851px){.research-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:851px){.research-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important}}
